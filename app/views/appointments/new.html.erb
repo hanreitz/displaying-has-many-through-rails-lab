@@ -1,0 +1,12 @@
+<%= form_for @appointment do |f| %>
+  <%= f.label :appointment_datetime %>
+  <%= f.text_field :appointment_datetime %><br>
+
+  <%= f.label :doctor %>
+  <%= f.text_field :doctor %><br>
+
+  <%= f.label :patient %>
+  <%= f.text_field :patient %><br>
+
+  <%= f.submit %>
+<% end %>
